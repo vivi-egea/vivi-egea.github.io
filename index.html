@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <!--CSS Personalizado-->
+    <link rel="stylesheet" href="style.css">
+    <!--CSS BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!--ICONS BOOTSTRAP-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!--GOOGLE FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="print-area">
+        <div class="header">
+            <img src="imagenes/fotoCV.jpg">
+            <div class="header-text">
+                <h1>ANDREA VIVIANA EGEA</h1>
+                <p>PROFESORA DE MATEMÁTICA</p>
+
+            </div>
+
+        </div>
+
+        <div class="content">
+            <div class="left-area">
+                <div class="contact">
+                    <h1>CONTACTO</h1>
+                    <h5>Teléfono</h5>
+                    <p>3544 - 446299</p>
+                    <h5>Email</h5>
+                    <p>vivi.egea25@gmail.com</p>
+                    <h5>Localidad</h5>
+                    <p>Villa Dolores, Córdoba.</p>
+                </div>
+                <div class="skills">
+                    <h1>HABILIDADES</h1>
+                    <div class="bars">
+                        <div class="bar">
+                            <p>Ilustrator</p>
+                            <span class="barra1"></span>
+                        </div>
+                        <div class="bar">
+                            <p>AutoCAD</p>
+                            <span class="barra1"></span>
+                        </div>
+                        <div class="bar">
+                            <p>HTML/CSS</p>
+                            <span class="barra2"></span>
+                        </div>
+                        <div class="bar">
+                            <p>JavaScript</p>
+                            <span class="barra2"></span>
+                        </div>                        
+                    </div>
+                </div>
+                <div class="follow">
+                    <h1>REDES SOCIALES</h1>
+                    <h4>Linkedin</h4>
+                    <p><a href="linkedin.com/in/andrea-viviana-egea">linkedin.com/in/andrea-viviana-egea</a></p>
+                    <h4>GitHUB</h4>
+                    <p><a href="github.com/vivi-egea">github.com/vivi-egea</a></p>
+                </div>
+            </div>
+
+
+            <div class="right-area">
+                <div class="about">
+                    <h1><span><i class="bi bi-person"></i></span>PERFIL</h1>
+                    <p>Profesora de Matemática, cursando Licenciatura Universitaria en Tecnologías Educativas. Gran interés por las nuevas tecnologías aplicadas a las estrategias de aprendizaje para mejorar la enseñanza de la Matemática y captar el interés de los estudiantes.</p>
+                </div>
+                <div class="work">
+                    <h1><span><i class="bi bi-briefcase"></i></span>EXPERIENCIA LABORAL</h1>
+                    <div class="work-group">
+                        <h3>PRECEPTORA</h3>
+                        <h4>Instituto Privado Superior “Presbítero Juan Vicente Brizuela”</h4>
+                        <span>2022/Presente</span>
+                        <p>Tareas administrativas, frente a alumnos. Trabajo colaborativo en equipo. Acompañamiento y control de la disciplina en grupos escolares.</p>
+                    </div>                    
+                </div>
+                <div class="education">
+                    <h1><span><i class="bi bi-book"></i></span>EDUCACIÓN</h1>
+                    <div class="edu-group">
+                        <h4>PROFESORA EN ENSEÑANZA SECUNDARIA<br>EN MATEMÁTICA</h4>
+                        <span>2019/2022</span>
+                        <p>Escuela Normal Superior "Dalmacio Vélez Sársfield"</p>
+                    </div>
+                    <div class="edu-group">
+                        <h4>AUTODESK AutoCAD 2D y 3D<br>Certificado de capacitación en AutoCAD</h4>
+                        <span>2016</span>
+                        <p>Autodesk Authorized Training Center (ATC)</p>
+                    </div>
+                    <div class="edu-group">
+                        <h4>BACHILLER ORIENTADO EN ECONOMÍA Y<br>GESTIÓN DE LAS ORGANIZACIONES<br>Gestión Administrativa.</h4>
+                        <span>2004/2009</span>
+                        <p>Instituto Privado Superior “Presbítero Juan Vicente Brizuela”</p>
+                    </div>
+                    <div class="edu-group">
+                        <h4>DIPLOMA DE INGLÉS</h4>
+                        <span>2005/2008</span>
+                        <p>Instituto Superior de Cultura Inglesa Cambridge.</p>
+                    </div>
+                </div>
+            </div>      
+        </div>
+    </div>
+    <div class="boton">
+        <button>IMPRIMIR CV</button>
+    </div>
+    
+    <!--JS BOOTSTRAP-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <!--BOTON DE IMPRESION-->
+    <script>
+        var btn = document.querySelector("button");
+        btn.onclick = () =>{
+            window.print();
+        }
+    </script>
+</body>
+</html>
